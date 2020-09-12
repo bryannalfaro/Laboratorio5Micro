@@ -41,7 +41,7 @@ int main()
 {
 	int i;
 	pthread_t thread[NTHREADS];  //vector usado para definir los i hilos
-	pthread_mutex_init(&mutexVar, NULL);
+	pthread_mutex_init(&mutexVar, NULL); //Se inicia la variable Mutex
 	    
     
 	for (i=0;i<NTHREADS;i++)
